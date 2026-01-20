@@ -3,7 +3,7 @@ import random
 result: int = ""
 
 # Present the rules for the game!
-print("Winning rules of the game ROCK PAPER SCISSORS are:\n"
+print("Winning rules of the game SCISSORS PAPER ROCK are:\n"
       + "Rock vs Paper -> Paper wins\n"
       + "Rock vs Scissor -> Rock wins\n"
       + "Paper vs scissor -> Scissors wins\n")
@@ -64,7 +64,7 @@ while True:
         print("<== Computer wins ==>")
 
     # Ask if the user would like to play it again
-    print("\nWould you like to play again? (n=no, y=yes)")
+    print("\nWould you like to play again? (n=no, y=yes, default=yes)")
     ans = input().lower()
 
     if ans == 'n':
@@ -72,4 +72,4 @@ while True:
     if ans != 'n' or ans != 'y':
         print("Not an valid option!")
 
-print("Thank you for playing ROCK PAPER SCISSORS!")
+print("Thank you for playing SCISSORS PAPER ROCKER!")
