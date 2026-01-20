@@ -1,5 +1,7 @@
 import random
 
+result: int = ""
+
 # Present the rules for the game!
 print("Winning rules of the game ROCK PAPER SCISSORS are:\n"
       + "Rock vs Paper -> Paper wins\n"
